@@ -349,12 +349,11 @@ header{
      color: rgb(255,255,255);
      display: block;
      @include fontsize(16);
-     font-weight: 400;
+     font-weight: bold;
      letter-spacing: 2px;
-     line-height: 20px;
      margin: 0;
      text-align: center;
-     text-size-adjust: 100%;
+    /*ext-size-adjust: 100%;*/
   }   
 }//sub_cover
 @media (min-width: 550px){
