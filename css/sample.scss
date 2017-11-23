@@ -332,12 +332,12 @@ header{
 //news.html
 #sub_cover{
     color: rgb(34,34,34);
-    display:block;
+    /*display:block;
     text-align: center;
-    line-height: 24px;
+    line-height: 24px;*/
     padding: 40px 0;
-    @include fontsize(15);
-    font-weight: 400;
+    /*@include fontsize(15);
+    font-weight: 400;*/
     //reting_bg
       background-image: url("../images/news/sub_cover.jpg");
       background-size: cover; //背景いっぱいに画像を敷き詰めたい時に便利
@@ -396,6 +396,7 @@ header{
         }  
     }//main
     #sidebar{
+      padding-bottom: 20px;
         .pc_sidemenu{
             
             h3{
@@ -428,6 +429,7 @@ header{
                 background-repeat: no-repeat;
                 background-position: 8px center;
                 padding: 10px 10px 10px 20px;
+                margin-bottom: 0;
                 a{
                   color: $blue1;
                   text-decoration: none;
@@ -444,11 +446,9 @@ header{
 //copmany.html
 #contents{
   #main{
-    h2{
-      .company_title{
+    h2.company_title{
         margin-bottom: 0px;
       }
-    }
     th{
       padding: 20px 0;
       padding-right: 20px;
